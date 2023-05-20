@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <meta
+      name="description"
+      content="Celine Jouandet - Type and graphic designer in Amsterdam_NL"
+    />
+
+    <title>Celine Jouandet</title>
+    <link rel="stylesheet" href="projects.css" />
+
+    <script>
+      let slideIndex = [1, 1, 1, 1, 1, 1, 1, 1];
+      let slideId = [
+        "mySlides1",
+        "mySlides2",
+        "mySlides3",
+        "mySlides4",
+        "mySlides5",
+        "mySlides6",
+        "mySlides7",
+        "mySlides8",
+      ];
+
+      window.onload = (event) => {
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+        showSlides(1, 3);
+        showSlides(1, 4);
+        showSlides(1, 5);
+        showSlides(1, 6);
+        showSlides(1, 7);
+        showSlides(1, 8);
+      };
+
+      function plusSlides(n, no) {
+        showSlides((slideIndex[no] += n), no);
+      }
+
+      function showSlides(n, no) {
+        let i;
+        let x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {
+          slideIndex[no] = 1;
+        }
+        if (n < 1) {
+          slideIndex[no] = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+      }
+    </script>
+  </head>
+
+  <body>
+    <main>
+      <h1 class="hide-desktop">
+        CÉLINE JOUANDET<br />
+        <span style="color: #010000">TYPE & GRAPHIC DESIGN</span>
+      </h1>
+
+      <nav class="header">
+        <ul>
+          <li><a class="menu" href="about.html">ABOUT</a></li>
+          <li><a class="menu" href="fonts.html">FONTS</a></li>
+          <li><a class="menu" href="projects.html">PROJECTS</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="one">
+          <img src="images/Pendragon/Pendragon1.jpg" width="750px" />
+          <img src="images/Pendragon/Pendragon2.jpg" width="550px" />
+          <img src="images/Pendragon/Pendragon3.jpg" width="1300px" />
+          <img src="images/Pendragon/Pendragon4.jpg" width="750px" />
+          <img src="images/Pendragon/Pendragon5.jpg" width="550px" />
+        </div>
+
+        <div class="two slideshow-container">
+          <img
+            src="images/Pendragon/Mobile/Pendragon1.jpg"
+            width="100%"
+            class="mySlides1"
+          />
+          <img
+            src="images/Pendragon/Mobile/Pendragon12.jpg"
+            width="100%"
+            class="mySlides1"
+          />
+          <img
+            src="images/Pendragon/Mobile/Pendragon13.jpg"
+            width="100%"
+            class="mySlides1"
+          />
+          <img
+            src="images/Pendragon/Mobile/Pendragon14.jpg"
+            width="100%"
+            class="mySlides1"
+          />
+          <img
+            src="images/Pendragon/Mobile/Pendragon15.jpg"
+            width="100%"
+            class="mySlides1"
+          />
+          <a class="prev hide-desktop" onclick="plusSlides(-1, 0)">❮</a>
+          <a class="next hide-desktop" onclick="plusSlides(1, 0)">❯</a>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>PENDRAGON</h2>
+            <h3>DISPLAY TYPEFACE 5 WEIGHTS AND ITALIC, 155 GLYPHS</h3>
+          </div>
+          <div class="column">
+            <p>
+              Pendragon is a display type family with 5 weights, ranging from
+              regular to Extrabold and an italic version. Pendragon features a
+              series of alternative glyphs and ligatures, typical from the
+              medieval descendants of the Roman capitalis and uncials.
+              Pendragon’s name was also an inspiration for a lot of alternates,
+              particularly for the “g” which evoque a dragon’s tail.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/2023/2023B1.jpg" width="750px" />
+            <img src="images/2023/2023B2.jpg" width="600px" />
+            <img src="images/2023/2023B3.jpg" width="750px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/2023/Mobile/2023B1.jpg"
+              width="100%"
+              class="mySlides2"
+            />
+            <img
+              src="images/2023/Mobile/2023B2.jpg"
+              width="100%"
+              class="mySlides2"
+            />
+            <img
+              src="images/2023/Mobile/2023B3.jpg"
+              width="100%"
+              class="mySlides2"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 1)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 1)">❯</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>TYPE DESIGN AND PRINT</h2>
+            <h3>
+              2023 Bookmarks, 2023 <br />
+              66 x 202 mm
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              This project is a collaboration between Sonia Verdiesen and
+              myself, and involves the creation of a unique typeface design for
+              a new year’s card that can also be used as a bookmark.<br />
+              Our goal was to design a typeface inspired by calligraphic tools
+              and the beauty of stems and leaves of flowers.<br />
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/Unboxing/Portrait.jpg" width="700px" />
+            <img src="images/Unboxing/Portrait2.jpg" width="500px" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>IDENTITY, TYPOGRAPHY & PRINT</h2>
+            <h3>
+              Unboxing, 2022 <br />Exhibition Identity, Poster, <br />Lettering
+              and Handout
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              I was commissioned to design the visual identity for the Unboxing
+              exhibition that took place in April 2022 at the Boo2 project space
+              in Amsterdam. The project was initiated by Zuza Banasinska and
+              Jeanne Vrastor, both former students of the Sandberg Institute,
+              with the goal of uniting works around the theme of perception and
+              navigation, under an original identity. To create the lettering, I
+              drew inspiration from brown seaweed.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/LadySpider_Fonts/LadySpider1.jpg" width="1300px" />
+            <img src="images/LadySpider_Fonts/LadySpider2.jpg" width="750px" />
+            <img src="images/LadySpider_Fonts/LadySpider3.jpg" width="750px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/LadySpider_Fonts/LadySpider1.jpg"
+              width="1300px"
+              class="mySlides3"
+            />
+            <img
+              src="images/LadySpider_Fonts/LadySpider2.jpg"
+              width="750px"
+              class="mySlides3"
+            />
+            <img
+              src="images/LadySpider_Fonts/LadySpider3.jpg"
+              width="750px"
+              class="mySlides3"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 2)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 2)">❯</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>TYPE DESIGN</h2>
+            <br />
+
+            <h3>Italic, 70 glyphs</h3>
+          </div>
+          <div class="column">
+            <p>
+              Lady Spider is a italic typeface that draws inspiration from
+              Flemish calligraphy, particularly from the calligraphies of Maria
+              Strick. I started working on this font during my diploma project
+              in 2021, which focused on archonophobia. My aim was to showcase a
+              different perspective on spiders, which are often associated with
+              dirt and morbidity. Instead, I sought to demonstrate that the
+              spider’s world is actually airborne, sensitive, and sensory in
+              nature.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/Helleen/Heleen1.jpg" width="1300px" />
+            <img src="images/Helleen/Heleen3.jpg" width="650px" />
+            <img src="images/Helleen/Heleen2.jpg" width="650px" />
+            <img src="images/Helleen/Heleen4.jpg" width="750px" /> <br />
+            <img src="images/Helleen/Heleen5.jpg" width="550px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/Helleen/Mobile/Heleen.jpg"
+              width="100%"
+              class="mySlides4"
+            />
+            <img
+              src="images/Helleen/Mobile/Heleen2.jpg"
+              width="100%"
+              class="mySlides4"
+            />
+            <img
+              src="images/Helleen/Mobile/Heleen3.jpg"
+              width="100%"
+              class="mySlides4"
+            />
+            <img
+              src="images/Helleen/Mobile/Heleen4.jpg"
+              width="100%"
+              class="mySlides4"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 3)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 3)">❯</a><br />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>EDITORIAL DESIGN</h2>
+            <h3>
+              Heleen, 2022 <br />
+              190 x 255 mm, 224 pages
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              I completed an editorial design project for a book that showcases
+              the paintings of Heleen Vriesendorp. The goal of the project was
+              to create a sense of rhythm and a logical order for the paintings
+              to tell Heleen’s story in a simple and natural layout. Together
+              with Heleen, her family, printers, and binders, we successfully
+              brought the project to life. The experience of collaborating with
+              the artist allowed us to create a meaningful book that celebrates
+              Heleen’s artwork in a thoughtful and understated manner.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/Dit&Dat/Dit&Dat1.jpg" width="750px" />
+            <img src="images/Dit&Dat/Dit&Dat2.jpg" width="1300px" />
+            <img src="images/Dit&Dat/Dit&Dat3.jpg" width="750px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/Dit&Dat/Mobile/Dit&Dat.jpg"
+              width="100%"
+              class="mySlides5"
+            />
+            <img
+              src="images/Dit&Dat/Mobile/Dit&Dat2.jpg"
+              width="100%"
+              class="mySlides5"
+            />
+            <img
+              src="images/Dit&Dat/Mobile/Dit&Dat3.jpg"
+              width="100%x"
+              class="mySlides5"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 4)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 4)">❯</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>POSTER DESIGN, TYPOGRAPHY</h2>
+            <h3>
+              Dit&Dat, 2022 <br />
+              Poster
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              Sonia Verdiesen is a former photography student at the HKU. We
+              made this poster together for her upcoming exhibition Dit & Dat at
+              Project space Lokaal in Utrech. We chose my font Astraea to
+              promote her installation. The Dit & Dat installation is an
+              invitation to Sonia’s work and her research process. It questions
+              her place as a woman, and the opposition between the ugly and the
+              sublime.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/Astraea/Astraea1.jpg" width="1300px" />
+            <img src="images/Astraea/Astraea2.jpg" width="750px" />
+            <img src="images/Astraea/Astraea3.jpg" width="650px" />
+            <img src="images/Astraea/Astraea4.jpg" width="650px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/Astraea/Mobile/Astraea.jpg"
+              width="100%"
+              class="mySlides6"
+            />
+            <img
+              src="images/Astraea/Mobile/Astraea2.jpg"
+              width="100%"
+              class="mySlides6"
+            />
+            <img
+              src="images/Astraea/Mobile/Astraea3.jpg"
+              width="100%"
+              class="mySlides6"
+            />
+            <img
+              src="images/Astraea/Mobile/Astraea4.jpg"
+              width="100%"
+              class="mySlides6"
+            />
+            <img
+              src="images/Astraea/Mobile/Astraea5.jpg"
+              width="100%"
+              class="mySlides6"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 5)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 5)">❯</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>TYPE DESIGN</h2>
+            <h3>
+              Astraea, 2021 <br />
+              Regular, 221 glyph
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              Astraea is a revival of Astrée by Robert Girard. For this revival,
+              I wanted to be close to the historical inspiration of Garaldes and
+              Elzevir, and also retake the name Astrée and it’s a universe that
+              comes from Honoré d’Urfé’s book. My version of Astrée offers a
+              variety of ligatures and special glyphs for stylistic uppercase. I
+              also wanted to harmonise the specificities of lower and uppercase
+              R.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/LadySpider_Book/LS1.jpg" width="1300px" />
+            <img src="images/LadySpider_Book/LS2.jpg" width="750px" />
+            <img src="images/LadySpider_Book/LS3.jpg" width="650px" />
+            <img src="images/LadySpider_Book/LS4.jpg" width="650px" />
+            <img src="images/LadySpider_Book/LS5.jpg" width="650px" />
+            <img src="images/LadySpider_Book/LS6.jpg" width="650px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/LadySpider_Book/Mobile/LS.jpg"
+              width="100%"
+              class="mySlides7"
+            />
+            <img
+              src="images/LadySpider_Book/Mobile/LS2.jpg"
+              width="100%"
+              class="mySlides7"
+            />
+            <img
+              src="images/LadySpider_Book/Mobile/LS3.jpg"
+              width="100%"
+              class="mySlides7"
+            />
+            <img
+              src="images/LadySpider_Book/Mobile/LS4.jpg"
+              width="100%"
+              class="mySlides7"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 6)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 6)">❯</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>EDITORIAL DESIGN & TYPE DESIGN</h2>
+            <h3>
+              Lady Spider, Diploma Project 2021 <br />
+              203 x 277 mm, 160 pages
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              Measuring an average of 5 cm, the spider is an everyday companion.
+              Its informality scares us: with its multiple eyes, its hairy body
+              and its eight legs. Wrongly considered as a threat, it is not at
+              all lethal for human beings. The objective of this project is to
+              create editorial and typographic supports to demystify the spider.
+              To get out of an anthropocentric conception of the world, to know
+              so as not to fear.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="one">
+            <img src="images/TBE/TBE1.jpg" width="750px" />
+            <img src="images/TBE/TBE2.jpg" width="1300px" />
+            <img src="images/TBE/TBE3.jpg" width="750px" />
+          </div>
+
+          <div class="two slideshow-container">
+            <img
+              src="images/TBE/Mobile/TBE.jpg"
+              width="100%"
+              class="mySlides8"
+            />
+            <img
+              src="images/TBE/Mobile/TBE2.jpg"
+              width="100%"
+              class="mySlides8"
+            />
+            <img
+              src="images/TBE/Mobile/TBE3.jpg"
+              width="100%"
+              class="mySlides8"
+            />
+            <a class="prev hide-desktop" onclick="plusSlides(-1, 7)">❮</a>
+            <a class="next hide-desktop" onclick="plusSlides(1, 7)">❯</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <h2>LETTERING</h2>
+            <h3>
+              The Butterfly Effect, <br />
+              2022 Lettering
+            </h3>
+          </div>
+          <div class="column">
+            <p>
+              I was commissioned by Mathilde Renault to create lettering for her
+              large-scale project, The Butterfly Effect, which is an interactive
+              and immersive work that depicts the journey of a shooting star.
+              Our goal was to create an epic lettering that blends science and
+              poetry. In The Butterfly Effect, Mathilde Renault synthesises
+              planetary science, aerospace engineering, fragrance technology,
+              and digital programming to map the journey of a former shooting
+              star to Earth. Through light, sound, smell, and video, the
+              4.5-billion-year-old meteorite is presented in a multi-sensory
+              installation that reveals its hidden genetics. The project was
+              showcased at the 35th edition of the International Documentary
+              Film Festival Amsterdam.
+            </p>
+          </div>
+        </div>
+
+        <hr class="line" />
+        <h4 class="hide-desktop">
+          c .jouandet@gmail.com <br />
+          + 33 7 82 42 78 00 AMSTERDAM <br />
+          My latest via Instagram <br />
+          or LinkedIn <br />
+          or Behance <br />
+          or Newsletter
+        </h4>
+
+        <hr class="line" />
+        <h4 class="hide-desktop">
+          <span class="capital">Colophon </span><br />This website is using
+          Pendragon <br />Typeface and was developed by<br />
+          Eloïse Dieutegard<br />
+          Copyright 2023, Céline Jouandet <br /> & Eloïse Dieutegard.<br />
+           All rights reserved.
+        </h4>
+      </div>
+    </main>
+  </body>
+</html>
