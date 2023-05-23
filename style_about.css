@@ -121,7 +121,7 @@ img {
   display: grid;
   grid-auto-flow: column;
   justify-items: center;
-  column-gap: 81px;
+  column-gap: 23px;
   width: 100%;
 }
 
@@ -323,6 +323,8 @@ ul {
   .info-bottom {
     display: none;
   }
+  
+  hr {display: none;}
   .line {
     display: none;
   }
