@@ -202,7 +202,9 @@ ul {
 }
 
 
-.hide-desktop {displau:none;}
+.hide-desktop {display:none;}
+
+
 /* mobile */
 @media only screen and (max-width: 600px) {
   .hide-mobile {
