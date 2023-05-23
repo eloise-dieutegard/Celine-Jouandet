@@ -200,6 +200,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+
+.hide-desktop {displau:none;}
 /* mobile */
 @media only screen and (max-width: 600px) {
   .hide-mobile {
