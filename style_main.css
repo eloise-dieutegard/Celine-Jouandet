@@ -124,6 +124,7 @@ a.menu {
 
   .bottom {
     top: 3%;
+    padding: 0px;
   }
 
   a.menu {
@@ -131,7 +132,7 @@ a.menu {
     font-size: 16px;
     padding: 8px;
   }
-
+  ul {padding: 0;}
   h1 {
     font-size: 19px;
     text-align: center;
@@ -152,7 +153,7 @@ a.menu {
     font-family: "Pendragon";
     font-style: normal;
     font-size: 13px;
-    left: 33%;
+    left: 35%;
   }
 }
 
