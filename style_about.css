@@ -86,10 +86,9 @@ img {
   }
 
   main {
-    display: grid;
+   
     justify-content: center;
     align-items: center;
-
     grid-auto-flow: column;
     margin-top: 3%;
     width: 100%;
@@ -327,10 +326,7 @@ ul {
   
   img {display: none;}
   
-  hr {display: none;}
-  .line {
-    display: none;
-  }
+  
 
   .hide-desktop {
     display: none;
