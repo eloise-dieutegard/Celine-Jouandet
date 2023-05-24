@@ -115,7 +115,6 @@ h2 {
   position: fixed;
   grid-template-columns: 1fr 1fr;
   padding: var(--main-padding);
-
   width: 100%;
   top: 77%;
   align-items: baseline;
@@ -228,6 +227,7 @@ a.menu {
  .header { position: relative;
     text-align: center;
     padding-left: 6px;
+   display: inline;
   }
   
   h1 {
