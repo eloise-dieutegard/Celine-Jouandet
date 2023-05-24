@@ -225,7 +225,7 @@ a.menu {
 
   
  
- header { position: relative;
+ .header { position: relative;
     text-align: center;
     padding-left: 6px;
   }
