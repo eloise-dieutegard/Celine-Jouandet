@@ -160,6 +160,7 @@ a.menu {
   .header {
     position: relative;
     text-align: center;
+    padding-left: 6px;
   }
 
   h2,
