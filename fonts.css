@@ -218,10 +218,11 @@ a.menu {
     margin-left: -5%;
   }
 
-  a.menu {
+a.menu {
     margin-top: 1%;
     font-size: 16px;
-    padding: 8px;
+    padding: 24px;
+    font-style: italic;
   }
 
   
