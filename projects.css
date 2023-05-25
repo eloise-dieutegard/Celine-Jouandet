@@ -157,9 +157,11 @@ a.menu {
   }
 
   .header {
+    top:18px;
     position: relative;
     text-align: center;
     padding-left: 6px;
+    height: 153px;
   }
 
   h2,
