@@ -202,7 +202,8 @@ ul {
 }
 
 
-.hide-desktop {display:none;}
+
+
 
 header {display: none;}
 
@@ -275,6 +276,10 @@ header {display: none;}
     transition: 0s;
     color: black;
   }
+  
+  
+  .img-hide-desktop {
+    height: 50px;}
 
   .bottom {
     display: none;
@@ -386,5 +391,7 @@ header {display: none;}
   .hide-desktop {
     display: none;
   }
+  
+  .img-hide-desktop {display:none;}
   .image {display:none;}
 }
