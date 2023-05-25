@@ -271,12 +271,14 @@ header {display: none;}
   
   
   .img-hide-desktop {
-    height: 50px;
-  margin-top: 58px;}
+    
+  margin-top: 86px;}
 
   .bottom {
     display: none;
   }
+  
+  image { width: -webkit-fill-available;}
 
   a.menu {
     margin-top: 1%;
@@ -372,19 +374,18 @@ header {display: none;}
   .info-bottom {
     display: none;
   }
-  
+  nav.header {display:none;}
   img {display: none;}
   
-  .header {
-    display: none;}
+  .header {display: none;}
   
-  header {
-    display: none;}
+  header {display: none;}
   
   .hide-desktop {
     display: none;
   }
 
+  
   .img-hide-desktop {display:none;}
   .image {display:none;}
 }
