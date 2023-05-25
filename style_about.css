@@ -286,11 +286,11 @@ ul {
   }
 
   .header {
-    padding-top: 17px;
+    top:18px
     position: relative;
     text-align: center;
     padding-left: 6px;
-    height: 28px;
+    height:153px
   }
 
   nav.header ul li {
@@ -304,7 +304,8 @@ ul {
   .menu-container {
     width: 100%;
     display: block;
-        margin-top: 64px;
+     margin-top: 64px;
+    text-align:center;
   }
   .menu {
     margin-top: 1%;
