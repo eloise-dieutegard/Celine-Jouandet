@@ -31,7 +31,6 @@ li {
 h1 {
   position: fixed;
   width: 342px;
-  height: 102px;
   left: 4%;
   top: 3%;
   color: rgba(148, 141, 132, 0.84);
@@ -207,29 +206,59 @@ a.menu {
     width: 100%;
   }
 
+  .raw {
+    margin-top: 137px;
+  }
+
   h3 {
     font-size: 11px;
   }
 
-  .bottom {
-    display:none;
+  nav.header ul li,
+  nav.filtering ul li {
+    display: inline-block;
   }
 
-a.menu {
+  nav.filtering ul {
+    text-align: center;
+  }
+
+  nav.header ul li:hover a,
+  nav.filtering ul li:hover a,
+  nav.header ul li.active,
+  nav.filtering ul li.active {
+    transition: 0s;
+    color: black;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  a.menu {
     margin-top: 1%;
     font-size: 16px;
     padding: 24px;
     font-style: italic;
   }
 
-  
- 
- .header { position: relative;
+  .header {
+    padding-top: 17px;
+    position: relative;
     text-align: center;
     padding-left: 6px;
-   display: inline;
+    height: 28px;
   }
-  
+
+  nav.header ul li {
+    display: inline-block;
+  }
+
+  ul {
+    padding: 0;
+    display: inline-block;
+  }
+
   h1 {
     position: absolute;
     font-size: 19px;
@@ -274,5 +303,8 @@ a.menu {
   .line {
     display: none;
   }
-  header {display:none;}
+  .header {
+    display: none;
+  }
 }
+
