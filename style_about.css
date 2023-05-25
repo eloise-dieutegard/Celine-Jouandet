@@ -204,6 +204,7 @@ ul {
 
 .hide-desktop {display:none;}
 
+header {display: none;}
 
 /* mobile */
 @media only screen and (max-width: 600px) {
