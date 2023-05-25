@@ -256,6 +256,51 @@ ul {
     height: auto;
   }
 
+  
+  nav.header ul li,
+  nav.filtering ul li {
+    display: inline-block;
+  }
+
+  nav.filtering ul {
+    text-align: center;
+  }
+
+  nav.header ul li:hover a,
+  nav.filtering ul li:hover a,
+  nav.header ul li.active,
+  nav.filtering ul li.active {
+    transition: 0s;
+    color: black;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  a.menu {
+    margin-top: 1%;
+    font-size: 16px;
+    padding: 24px;
+    font-style: italic;
+  }
+
+  .header {
+    padding-top: 17px;
+    position: relative;
+    text-align: center;
+    padding-left: 6px;
+    height: 28px;
+  }
+
+  nav.header ul li {
+    display: inline-block;
+  }
+
+  ul {
+    padding: 0;
+    display: inline-block;
+  }
   .menu-container {
     width: 100%;
     display: block;
@@ -329,8 +374,8 @@ ul {
   
   img {display: none;}
   
+  .header {display:none;}
   
-
   .hide-desktop {
     display: none;
   }
