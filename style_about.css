@@ -180,6 +180,7 @@ nav.filtering ul li.active {
 }
 
 a.menu {
+ 
   text-decoration: none;
   padding: 25px;
   width: 100%;
@@ -230,7 +231,7 @@ ul {
 
   a.menu {
     text-align: center;
-    margin-top: 1%;
+    top:28px;
     font-size: 16px;
     padding: 8px;
     position: relative;
@@ -244,7 +245,7 @@ ul {
     left: auto;
     top: 0;
     width: 100%;
-    margin-top: 140px;
+   
   }
 
   .info-mobile {
@@ -286,7 +287,7 @@ ul {
   }
 
   .header {
-    top:18px
+    top:18px;
     position: relative;
     text-align: center;
     padding-left: 6px;
@@ -364,7 +365,7 @@ ul {
     display: none;
   }
   
-  hr {border-top: 1px solid red}
+  .hr {border-top: 1px solid red}
 }
 
 /* desktop */
@@ -375,7 +376,11 @@ ul {
   
   img {display: none;}
   
-  .header {display:none;}
+  .header {
+    display: none;}
+  
+  header {
+    display: none;}
   
   .hide-desktop {
     display: none;
